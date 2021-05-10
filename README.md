@@ -35,10 +35,10 @@ Below you can see the sample data from CASIA V2, RGB image and its segmnetad mas
 
 |RGB Image   | Binary Mask |
 | ---------- | ------------|
-|RGB_image   | ![RGB]      |
-|Seg_mask    | ![seg]      |
+|RGB image   | ![RGB]      |
+|Seg. mask   | ![seg]      |
 
-[RGB]: images/Tp_D_NNN_S_N_art00033_cha00063_01421.tif
+[RGB]: images/01421.tif
 [seg]: images/01421_gt.jpg
 
 
