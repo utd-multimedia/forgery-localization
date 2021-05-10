@@ -39,11 +39,10 @@ RGB Image     Binary Mask
 ============= ==============
 
 
-.. |unet_image| image:: https://github.com/qubvel/segmentation_models/blob/master/images/unet.png
-.. |RGB_image| image:: https://github.com/utd-multimedia/forgery-localization/blob/main/images/Tp_D_NNN_S_N_art00033_cha00063_01421.tif
-.. |Seg_mask| image:: https://github.com/utd-multimedia/forgery-localization/blob/main/images/01421_gt.jpg
+.. |RGB_image| image:: https://github.com/utd-multimedia/forgery-localization/tree/main/images/Tp_D_NNN_S_N_art00033_cha00063_01421.tif
+.. |Seg_mask| image:: https://github.com/utd-multimedia/forgery-localization/tree/main/images/01421_gt.jpg
 
 To train the model with FDL-Net: run FDL-Net.py
-To predict the forgery segmented mask of the unseen data: run predict.py
+To predict the forgery segmented mask of the unseen test data: run predict.py
 To evaluate the model on test set: run evaluate.py
 To localize the forgery on 3D LiDAR (or point cloud) data: run TwoD_to_PC_Convert_Git.m
