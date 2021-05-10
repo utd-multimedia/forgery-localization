@@ -38,11 +38,11 @@ Below you can see the sample data from CASIA V2, RGB image and its segmnetad mas
 |RGB image   | ![RGB]      |
 |Seg. mask   | ![seg]      |
 
-[RGB]: images/01421.tif
-[seg]: images/01421_gt.jpg
+[RGB]: images/Tp_D_NRN_S_N_pla10122_pla10120_11605.jpg
+[seg]: images/Tp_D_NRN_S_N_pla10122_pla10120_11605.png
 
 
-To train the model with FDL-Net: run FDL-Net.py
-To predict the forgery segmented mask of the unseen test data: run predict.py
-To evaluate the model on test set: run evaluate.py
-To localize the forgery on 3D LiDAR (or point cloud) data: run TwoD_to_PC_Convert_Git.m
+**To train the model with FDL-Net: run FDL-Net.py
+**To predict the forgery segmented mask of the unseen test data: run predict.py
+**To evaluate the model on test set: run evaluate.py
+**To localize the forgery on 3D LiDAR (or point cloud) data: run TwoD_to_PC_Convert_Git.m
