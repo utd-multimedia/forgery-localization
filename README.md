@@ -25,8 +25,8 @@ First, import the Segmentation Models library:
     pip install -U segmentation-models
     ```	
 	
-Training/Validation
-~~~~~~~~~~~~~~~~~~~
+# Training/Validation
+
 After downloading the dataset (such as CASIA V2), you need to split it to three divisions and store in subfolders: train, val, and test. Their corresponding segmented masks will be stored in subfolders trainannot, valannot, and testannot. All 6 subfolders will be located in root folder of "data".
 
 Below you can see the sample data from CASIA V2, RGB image and its segmnetad mask that shows the forged area.
